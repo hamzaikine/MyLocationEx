@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyLocation</string>
+    <string name="my_location">My Location:</string>
+    <string name="dialog_message">We need your permission. Turn on location permission from settings.</string>
+    <string name="dialog_title">Location Needed</string>
+    <string name="get_location">Get Location</string>
+    <string name="accept">Accept</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="invalid_lat_long_used"><![CDATA[Invalid latitude &/ longitude]]></string>
+    <string name="no_address_found">No Address found.</string>
+    <string name="address_found">Address found</string>
+    <string name="no_geocoder_available">No geocoder available.</string>
+    <string name="show_on_map">Show in map</string>
+</resources>
