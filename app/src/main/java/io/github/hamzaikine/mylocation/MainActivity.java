@@ -375,6 +375,8 @@ public class MainActivity extends AppCompatActivity {
 
                     Log.d("LocationCallback", "we are getting new location" + location.toString());
 
+                    //update last location so it reflects the new address.
+                    lastLocation = location;
 
                     LATITUDE.setText("Latitude: " + latitude.toString());
                     LONGITUDE.setText("Longitude: " + longitude.toString());
@@ -384,6 +386,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Uri gmmIntentUri = Uri.parse("geo:" + latitude + "," + longitude + "?z=21");
                     Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+
                     //fetch the address
                     startIntentService();
                 }
